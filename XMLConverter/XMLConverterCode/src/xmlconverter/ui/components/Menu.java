@@ -2,9 +2,10 @@ package xmlconverter.ui.components;
 
 import javax.swing.*;
 
-public class Menu extends JComponent {
+public class Menu extends JMenu{
 
     public Menu(ExitButton exitButton) {
         this.add(exitButton);
+        this.setText("Menu");
     }
 }
